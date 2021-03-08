@@ -71,7 +71,7 @@ ul {
     line-height: 1.14px;
     letter-spacing: 0.02em;
     color: #757575;
-    
+    font-style: normal;   
 }
 .mail-link:hover,
 .mail-link:focus {
@@ -85,6 +85,7 @@ line-height: 1.14px;
 letter-spacing: 0.02em;
 color: #757575;
 margin-left: 50px;
+font-style: normal;
 }
 .tel-link:hover,
 .tel-link:focus {
