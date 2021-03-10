@@ -104,8 +104,15 @@ font-style: normal;
 .web-logo {
     color:#2196F3;
 }
+.bord-padding {
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+}
 .sect {
     background: #2F303A;
+    display: flex;
+    justify-content: center;
 }
 .top-title {
     font-weight: 900;
@@ -115,10 +122,16 @@ font-style: normal;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin-left: 452px;
-    margin-right: 452px;
     padding-top: 200px;
     padding-bottom: 40px;
+    width: 696px;
+    align-items: center;
+}
+.wid {
+    justify-content: center;
+    display: flex;
+    padding-bottom: 200px;
+    padding-top: 30px;
 }
 .btn {
     font-weight: 700;
@@ -129,10 +142,10 @@ font-style: normal;
     color: #FFFFFF;
     background: #2196F3;
     padding: 10px 32px;
-    margin-bottom: 200px;
+
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    margin-left: 663px;
+
 }
 .features-title {
     display: flex;
