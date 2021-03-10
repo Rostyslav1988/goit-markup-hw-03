@@ -71,7 +71,7 @@ ul {
     line-height: 1.14px;
     letter-spacing: 0.02em;
     color: #757575;
-    font-style: normal;   
+    font-style: normal;
 }
 .mail-link:hover,
 .mail-link:focus {
@@ -172,12 +172,14 @@ font-style: normal;
 .footer {
     background-color: #2F303A;
     padding-top: 60px;
+    padding-bottom: 60px;
 }
 .padding-footer {
     width: 1170px;
     justify-content: space-between;
     margin: 0 auto;
     margin-bottom: 20px;
+    
 }
 .name {
     margin-top: 30px;
@@ -259,8 +261,6 @@ font-style: normal;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
-}
-    .container li:not(:last-child) {
     padding-bottom: 9px;
 }
 .mail-footer {
@@ -269,6 +269,7 @@ font-style: normal;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+
 }
 .tel-footer {
     font-weight: 400;
@@ -276,5 +277,7 @@ font-style: normal;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-    padding-bottom: 60px;
+}
+.pad {
+    padding-bottom: 9px;
 }
