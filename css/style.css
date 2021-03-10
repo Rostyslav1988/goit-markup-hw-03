@@ -171,6 +171,7 @@ font-style: normal;
 }
 .footer {
     background-color: #2F303A;
+    padding-top: 94px;
 }
 .name {
     margin-top: 30px;
